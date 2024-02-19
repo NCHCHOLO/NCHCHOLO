@@ -1,0 +1,30 @@
+
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);//input
+        System.out.println( "Enter 1st quarter");//
+        int x =  input.nextInt();
+        System.out.println( "Enter 1st quarter");//
+        int y = input.nextInt();
+        System.out.println( "Enter 1st quarter");//
+        int z = input.nextInt();
+        
+        
+        int sum;
+        sum = x + y + z;        
+        double per;
+        per = sum * .60;
+        int quot ;
+        quot = sum / 3;
+        
+        
+        
+        
+        
+        
+        System.out.println("Percentage is :" + quot);
+        System.out.println("Average is: + qout ");
+
+       
+    }
+}
